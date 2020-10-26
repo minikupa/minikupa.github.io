@@ -859,13 +859,13 @@ const RESOURCES = {
 "assets/assets/video/tajiri.mp4": "8a6bc94af98ceba874b3ee3378ecae81",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "00802df9d1178894edcb45d09af6d629",
+"assets/NOTICES": "5b11c51418e076e29a04a63e2e582394",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "797383e9e45e92c8c95403ef1f238804",
-"/": "797383e9e45e92c8c95403ef1f238804",
-"main.dart.js": "2e95c875174533d215cc820fb7e6e1fa",
+"index.html": "ef4fe6d93f311ed81dda160698def554",
+"/": "ef4fe6d93f311ed81dda160698def554",
+"main.dart.js": "d91303526d94192f27a8d31599371d20",
 "manifest.json": "1190bd0ae5495c01f4cbdd61e80dd883",
 "version.json": "02680689b87cf28a8a54d19c58f657ad"
 };
