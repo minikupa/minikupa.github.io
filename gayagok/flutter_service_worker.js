@@ -3,25 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f6f2a3a9034d1eeca63bc16259b0e314",
+  "assets/AssetManifest.json": "0730755fbd293b90f8cb4d1d3613686e",
 "assets/assets/background.webp": "2633c21caa574ffea68bb8ed5612a100",
-"assets/assets/covid.gif": "577cb7e401eda90a28c2c1fe846d03e3",
 "assets/assets/icon.webp": "815c118c8643b8fb15032a7841889c4f",
 "assets/assets/loading.gif": "38b44c4ec935a63b5b2ff9f382fbfd2c",
 "assets/assets/notification.gif": "409d35bdfed93c2d988f6342bd032101",
 "assets/assets/schedule.gif": "b5b8b807b3828f9c3af8c72dfb709630",
-"assets/assets/school.gif": "5c2447d1c23318f15352c24791615204",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "e9dcd74b534f2a2c40175e1f13844928",
+"assets/NOTICES": "324979debd785301af64675e95db2dd4",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "4ad026149d67fc1557156f723c1c4e3c",
-"/": "4ad026149d67fc1557156f723c1c4e3c",
-"main.dart.js": "27364e3105a833f645ffedf1a7c891e0",
+"index.html": "fa0cb873f8afa6db7c594fb2377768d1",
+"/": "fa0cb873f8afa6db7c594fb2377768d1",
+"main.dart.js": "5646f9b9f0404580f7cbf3e2b40a619c",
 "manifest.json": "3f3eb59f1540d02b2e796b8b59317a95",
-"version.json": "162ddc8ee7f3fc85cce419ac841426fd"
+"version.json": "84115cbd626673a6a77e3932d30a4b19"
 };
 
 // The application shell files that are downloaded before a service worker can
