@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "08d0f85b324bd1adb7877a10660db756",
+  "assets/AssetManifest.json": "4f79d005f67f8778f1589576be183357",
 "assets/assets/background/background.webp": "d0e2209c06e4e4ada838dd15b823826f",
 "assets/assets/background/baseball_field.webp": "41e65ffcd7c8b0702fb3c79a374e1292",
 "assets/assets/background/booth.webp": "a21ae02a15834c0ecfe7cae378794f6d",
@@ -774,13 +774,13 @@ const RESOURCES = {
 "assets/assets/video/tajiri.mp4": "c77909d45c7020778511df22a4f3f15f",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "5b11c51418e076e29a04a63e2e582394",
+"assets/NOTICES": "0deaf4f1fe7c6a577273dc40a15acfc7",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "dfdf19b585e5028d494cc166bd31fe75",
-"/": "dfdf19b585e5028d494cc166bd31fe75",
-"main.dart.js": "522baa15c3b47f294195275ed4e01e2a",
+"index.html": "79da98101d525871e5b1813edd69534a",
+"/": "79da98101d525871e5b1813edd69534a",
+"main.dart.js": "658d4d83430f8e88fffec0b7812e2e1b",
 "manifest.json": "1190bd0ae5495c01f4cbdd61e80dd883",
 "version.json": "592be121325a9dccbb37dfec29bf760e"
 };
@@ -926,7 +926,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
