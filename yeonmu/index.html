@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="yeonmu_school">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>yeonmu_school</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1795215876');
+      });
+    }
+
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDoldhtSiVcraVHdZTD0dgOl9SfkJ6CQXY",
+    authDomain: "yeonmuschool.firebaseapp.com",
+    databaseURL: "https://yeonmuschool.firebaseio.com",
+    projectId: "yeonmuschool",
+    storageBucket: "yeonmuschool.appspot.com",
+    messagingSenderId: "361834905520",
+    appId: "1:361834905520:web:78dbfe39b41f30334aa075",
+    measurementId: "G-T5MQXQ5H7L"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
