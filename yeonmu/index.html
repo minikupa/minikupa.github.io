@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="A new Flutter project.">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="yeonmu_school">
-    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    <title>yeonmu_school</title>
-    <link rel="manifest" href="manifest.json">
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="yeonmu_school">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>yeonmu_school</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '4006210030';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="splash/splash.js"></script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
 <body>
-<script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=368172907');
+  <picture id="splash">
+    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt=""/>
+  </picture>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
       });
-    }
-
-</script>
-
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
-
-<script>
-  var firebaseConfig = {
-    apiKey: "AIzaSyDoldhtSiVcraVHdZTD0dgOl9SfkJ6CQXY",
-    authDomain: "yeonmuschool.firebaseapp.com",
-    databaseURL: "https://yeonmuschool.firebaseio.com",
-    projectId: "yeonmuschool",
-    storageBucket: "yeonmuschool.appspot.com",
-    messagingSenderId: "361834905520",
-    appId: "1:361834905520:web:78dbfe39b41f30334aa075",
-    measurementId: "G-T5MQXQ5H7L"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-<script src="main.dart.js" type="application/javascript"></script>
+    });
+  </script>
 </body>
 </html>
