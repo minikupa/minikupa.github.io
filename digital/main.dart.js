@@ -58641,7 +58641,7 @@ r=o.d
 A.a6V(A.b(s.e,n),q,p,A.ba(r),A.aI(r)).b6(0,new A.a2P(o),t.P)
 o.bq()},
 S(a,b){var s=this,r=null,q=A.acE("assets/background.webp",B.Cm,1/0,1/0),p=t.E,o=A.a8c(A.a([A.a9_(A.a([A.dq(A.lv("a ",r).dF(0,s.d),r,A.eh(r,r,r,r,r,r,r,r,r,r,r,12*$.cf().gfE(),r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.dq(A.lv("h:mm","ko_KR").dF(0,s.d),r,A.eh(r,r,r,r,r,r,r,r,r,r,r,57*$.cf().gfE(),r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],p),B.fk),A.dq(A.lv("MM\uc6d4 dd\uc77c(E)","ko_KR").dF(0,s.d),r,A.eh(r,r,r,r,r,r,r,r,r,r,r,12*$.cf().gfE(),r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],p),B.n8,B.fk),n=s.Ul(),m=s.WH(),l=$.cf().gfD(),k=$.cf()
-return new A.w2(A.apf(A.wy(B.dG,A.a([q,new A.e_(B.BR,r,r,o,r),new A.e_(B.BO,r,r,n,r),new A.e_(B.BN,r,r,m,r),new A.e_(B.BP,r,r,A.acE("assets/timetable.webp",B.Cl,230*l,167*(k.gi1()/A.b(k.a,"_uiSize").a)),r)],p),B.ai,B.dz),!0),r)},
+return new A.w2(A.apf(A.wy(B.dG,A.a([q,new A.e_(B.BR,r,r,o,r),new A.e_(B.BO,r,r,n,r),new A.e_(B.BN,r,r,m,r),new A.e_(B.BP,r,r,A.acE("assets/timetable.webp",B.Cl,200*l,167*(k.gi1()/A.b(k.a,"_uiSize").a)),r)],p),B.ai,B.dz),!0),r)},
 Ul(){var s=$.cf().gfD()
 return A.pA(A.acU(new A.a2A(this,["\uc544\uce68","\uc810\uc2ec","\uc800\ub141"]),3,B.aZ,!0),170*s,null)},
 WH(){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="_uiSize",e=$.cf(),d=e.gi1()
@@ -60394,7 +60394,7 @@ B.mr=new A.cg(0,-1)
 B.BM=new A.cg(1,0)
 B.BN=new A.cg(0.96,0.8)
 B.BO=new A.cg(0.3,-0.3)
-B.BP=new A.cg(-0.85,0.72)
+B.BP=new A.cg(-0.85,0.523)
 B.ms=new A.cg(-0.1,-0.82)
 B.BQ=new A.cg(0,0.8)
 B.BR=new A.cg(0.9,-0.8)
