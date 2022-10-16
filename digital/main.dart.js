@@ -59093,7 +59093,7 @@ A.a7B(A.b(s.e,"regionCode"),s.d,s.c,A.bb(r),A.aI(r)).b7(0,new A.a3q(this),t.P)},
 ol(){var s=0,r=A.a4(t.z),q=this,p,o,n,m,l,k,j,i,h
 var $async$ol=A.a5(function(a,b){if(a===1)return A.a1(b,r)
 while(true)switch(s){case 0:s=2
-return A.a0(A.aaX(A.jB("https://calendar.google.com/calendar/ical/yeonmucom%40gmail.com/public/basic.ics")),$async$ol)
+return A.a0(A.aaX(A.jB("https://server.minikupa.com/yeonmu_digital")),$async$ol)
 case 2:i=b
 h=A.rE(A.rA(i.e).c.a.j(0,"charset")).bo(0,i.w)
 for(h=A.aoD(B.CV.bX(h.charCodeAt(0)==0?h:h),!0).a,p=h.length,o=q.x,n=q.w,m=0;m<h.length;h.length===p||(0,A.I)(h),++m){l=h[m]
