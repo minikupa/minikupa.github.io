@@ -3,11 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d1d5b974d9d5e4a050dcd169143033fe",
+  "assets/AssetManifest.json": "6195e4453fa031cc1f78fe46bb2cc79d",
 "assets/assets/clouds/clouds.webp": "8de44a8df5898f9d37e7ff998e440af2",
 "assets/assets/clouds/clouds1.webp": "eebcb207d95fd8b8fdf2d7af1b38f693",
-"assets/assets/clouds/clouds2.webp": "33d7ccf9f81c2aeaf28303089fc179ae",
-"assets/assets/clouds/clouds3.webp": "cfcbfeeb26ce780b305be14c7e3bb462",
+"assets/assets/clouds/clouds2.webp": "6067bcfad176d44f496c58564f8e49e6",
+"assets/assets/clouds/clouds3.webp": "9f40fad1e29c83b0d4ee944c107ff945",
+"assets/assets/clouds/clouds4.webp": "2c3f7e0bd51aef24ccc23f238c900db2",
 "assets/assets/normal/normal.webp": "438fabd1a67c2d7856a0479a6fbe43cb",
 "assets/assets/normal/normal1.webp": "0bdf3e3923976fde69ca2bde9dd1eb63",
 "assets/assets/normal/normal2.webp": "83d0912fdb40663c9c3a3d23ba5813df",
@@ -33,8 +34,8 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e42cb64d6bee918c3a90b43ce11103b9",
-"/": "e42cb64d6bee918c3a90b43ce11103b9",
+"index.html": "66d09d25a94254fdb8e8ba96b79458e8",
+"/": "66d09d25a94254fdb8e8ba96b79458e8",
 "main.dart.js": "d06f02f94ca0444f238deebbc7113621",
 "manifest.json": "d5a49b67b47182efda674c8227af3727",
 "version.json": "b310672db26a67f5b7623f4456963ebd"
